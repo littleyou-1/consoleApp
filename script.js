@@ -2,50 +2,36 @@
 
 'use strict';
 
-const optoins = {
-    name: 'test',
-    width: '1024',
-    height: '1024',
-    colors: {
-        border: 'black',
-        bg: 'red'
-    },
-    makeTest: function() {
-        console.log('Test');
-    }
-};
 
-optoins.makeTest();
-
-const {border, bg} = optoins.colors;
-console.log(border);    
-
-
-//console.log(Object.keys(optoins).length);
-
-
-/* console.log(optoins.name);
-
-
-delete optoins.name;
-
-console.log(optoins); */
-/* let counter = 0;
-
-for (let key in optoins) {
-    if (typeof(optoins[key]) === 'object') {
-        for (let i in optoins[key]) {
-            console.log(`Свойство ${i} имеет значение ${optoins[key][i]} `);
-          
-        }
-    } else {
-        console.log(`Свойство ${key} имеет значение ${optoins[key]} `); 
-        counter++;
-    }
-    
-}
-
-console.log(counter);
+const arr =[2, 1, 18, 24];
+arr.sort();
+console.log(arr);
+/* arr[99] = 0;
+console.log(arr.length);
  */
 
+/* arr.forEach(function(item, i, arr) {
+    console.log(`${i}: ${item} in masive ${arr}`);
+});
+ */ 
+//arr.pop();
+/* arr.push(10);
 
+
+
+console.log(arr); */
+/* 
+for (let i = 0; i < arr.length; i++) {
+
+    console.log(arr[i]);
+}
+
+for (let value of arr) {
+    console.log(value);
+} */
+
+
+/* const  str = prompt("","");
+const produkts = str.split(", ");
+produkts.sort();
+console.log(produkts.join('; ')); */
